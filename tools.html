@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOOLS - PURE REASONING</title>
+    <style>
+        body {
+            background-color: #0A0A0A;
+            color: #00FF00;
+            font-family: "Courier New", monospace;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.4;
+            cursor: default;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .main-title {
+            text-align: center;
+            color: #FFAA00;
+            font-size: 32px;
+            font-weight: bold;
+            margin: 20px 0;
+            letter-spacing: 18px;
+        }
+
+        .description {
+            color: #00FF00;
+            margin-bottom: 40px;
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .tools-section {
+            margin-bottom: 40px;
+            color: #00FF00;
+        }
+
+        .section-header {
+            color: #FFAA00;
+            font-weight: bold;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .tool-title {
+            color: #00FF00;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .tool-title:hover {
+            color: #FFD700;
+            text-decoration: underline;
+        }
+
+        .tool-description {
+            color: #00FF00;
+            font-weight: normal;
+            line-height: 1.6;
+        }
+
+        .back-link {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .back-link a {
+            color: #0066CC;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .back-link a:hover {
+            color: #FFD700;
+            text-decoration: underline;
+        }
+
+        /* Terminal cursor effect */
+        body::after {
+            content: "█";
+            color: #00FFFF;
+            animation: blink 1s infinite;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            font-size: 20px;
+        }
+
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+
+        /* Selection styling */
+        ::selection {
+            background-color: #00FFFF;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Domain Name -->
+        <div style="text-align: center; color: #FF0000; font-size: 12px; margin-bottom: 20px;">PURE REASONING</div>
+        
+        <!-- Main Title -->
+        <div class="main-title">
+            PURE REASONING
+        </div>
+
+        <!-- Description -->
+        <div class="description">
+            A personal library of materials on Artificial Intelligence
+        </div>
+
+        <!-- Tools Section -->
+        <div class="tools-section">
+            <div class="section-header">TOOLS</div>
+            
+            <div style="margin-bottom: 10px;">
+                <a href="https://openai.com/index/introducing-deep-research/" class="tool-title">
+                    OpenAI's Deep Research
+                </a>
+                <div class="tool-description">
+                    AI tool for complex analysis and research tasks
+                </div>
+            </div>
+        </div>
+
+        <!-- Back Link -->
+        <div class="back-link">
+            <a href="textfiles.html">← BACK TO MAIN PAGE</a>
+        </div>
+    </div>
+</body>
+</html> 

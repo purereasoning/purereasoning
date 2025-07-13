@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEXTFILES.COM</title>
+    <style>
+        body {
+            background-color: #0A0A0A;
+            color: #00FF00;
+            font-family: "Courier New", monospace;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.4;
+            cursor: default;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .mirror-section {
+            margin-bottom: 30px;
+        }
+
+        .mirror-title {
+            color: #FF69B4;
+            font-weight: bold;
+        }
+
+        .mirror-links {
+            margin-top: 10px;
+            text-align: center;
+            color: #FFAA00;
+            font-size: 12px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .mirror-links a {
+            color: #00FF00;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+        .mirror-links a:hover {
+            text-decoration: underline;
+        }
+
+        .mirror-links a.highlight {
+            color: #00FF00;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        .main-title {
+            text-align: center;
+            color: #FFAA00;
+            font-size: 32px;
+            font-weight: bold;
+            margin: 20px 0;
+            letter-spacing: 18px;
+        }
+
+        .description {
+            color: #00FF00;
+            margin-bottom: 40px;
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .questions {
+            margin-bottom: 40px;
+        }
+
+        .questions a {
+            color: #0066CC;
+            text-decoration: none;
+            display: inline;
+            margin-right: 30px;
+            font-weight: bold;
+        }
+
+        .questions a:hover {
+            text-decoration: underline;
+        }
+
+        .categories {
+            margin-bottom: 40px;
+        }
+
+        .categories a {
+            color: #00FF00;
+            text-decoration: none;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+
+        .categories a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-title {
+            color: #FF0000;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .navigation-bar {
+            background-color: #0000FF;
+            color: #FFFFFF;
+            padding: 15px;
+            margin-top: 40px;
+            border-radius: 5px;
+        }
+
+        .nav-instructions {
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .nav-commands {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .key {
+            background-color: #333333;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+
+        /* Terminal cursor effect */
+        body::after {
+            content: "█";
+            color: #00FFFF;
+            animation: blink 1s infinite;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            font-size: 20px;
+        }
+
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+
+        /* Selection styling */
+        ::selection {
+            background-color: #00FFFF;
+            color: #000000;
+        }
+
+        /* Focus styling for accessibility */
+        a:focus {
+            outline: 2px solid #FF69B4;
+            outline-offset: 2px;
+        }
+
+        /* Hover effect for article links */
+        .articles-section a:hover {
+            color: #FFD700 !important;
+            text-decoration: underline !important;
+        }
+
+        /* Hover effect for video links */
+        .videos-section a:hover {
+            color: #FFD700 !important;
+            text-decoration: underline !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Mirror Sites Section -->
+        <div class="mirror-section">
+        </div>
+
+        <!-- Domain Name -->
+        <div style="text-align: center; color: #FF0000; font-size: 12px; margin-bottom: 20px;">PURE REASONING</div>
+        
+        <!-- Main Title -->
+        <div class="main-title">
+            PURE REASONING
+        </div>
+
+        <!-- Description -->
+        <div class="description">
+            A personal library of materials on Artificial Intelligence
+        </div>
+
+        <!-- Questions -->
+        <div class="questions" style="text-align: center;">
+            <a href="articles.html">ARTICLES</a>
+            <a href="videos.html">VIDEOS</a>
+            <a href="tools.html">TOOLS</a>
+        </div>
+
+        <!-- Articles Section -->
+        <div class="articles-section" style="margin-bottom: 40px; color: #00FF00;">
+            <div style="color: #FFAA00; font-weight: bold; margin-bottom: 15px;">ARTICLES</div>
+            <div style="margin-bottom: 10px;">
+                <a href="https://www.noemamag.com/how-ai-could-help-rebuild-the-middle-class/" style="color: #00FF00; text-decoration: none; font-weight: bold;">AI Could Actually Help Rebuild The Middle Class</a>
+                <div style="margin-top: 5px; font-weight: normal; color: #00FF00;">
+                    AI doesn't have to be a job destroyer. It offers us the opportunity to extend expertise to a larger set of workers.
+                </div>
+            </div>
+            <div style="margin-bottom: 10px; margin-top: 20px;">
+                <a href="https://www.bbc.co.uk/teach/articles/zh77cqt" style="color: #00FF00; text-decoration: none; font-weight: bold;">AI: 15 key moments in the story of artificial intelligence</a>
+                <div style="margin-top: 5px; font-weight: normal; color: #00FF00;">
+                    The quest for artificial intelligence (AI) began over 70 years ago, with the idea that computers would one day be able to think like us.
+                </div>
+            </div>
+        </div>
+
+        <!-- Videos Section -->
+        <div class="videos-section" style="margin-bottom: 40px; color: #00FF00;">
+            <div style="color: #FFAA00; font-weight: bold; margin-bottom: 15px;">VIDEOS</div>
+            <div style="margin-bottom: 10px;">
+                <a href="https://www.youtube.com/watch?v=id4YRO7G0wE" style="color: #00FF00; text-decoration: none; font-weight: bold;">The AI Revolution Is Underhyped</a>
+                <div style="margin-top: 5px; font-weight: normal; color: #00FF00;">
+                    Former Google CEO Eric Schmidt argues that non-human intelligence is significant and underhyped. In an interview, he discusses AI's breakthroughs in performing complex tasks, highlighting its opportunities, challenges, and risks, and urges everyone to engage with this technology to remain relevant.
+                </div>
+            </div>
+            <div style="margin-bottom: 10px; margin-top: 20px;">
+                <a href="https://www.youtube.com/watch?v=vV7YgnPUxcU" style="color: #00FF00; text-decoration: none; font-weight: bold;">A.I., Mars and Immortality: Are We Dreaming Big Enough?</a>
+                <div style="margin-top: 5px; font-weight: normal; color: #00FF00;">
+                    Peter Thiel critiques the slow pace of innovation in this episode, discussing artificial intelligence, longevity science, and space travel. He warns that our stagnation could lead to catastrophic outcomes, including the rise of the Antichrist.
+                </div>
+            </div>
+        </div>
+
+        <!-- Tools Section -->
+        <div class="tools-section" style="margin-bottom: 40px; color: #00FF00;">
+            <div style="color: #FFAA00; font-weight: bold; margin-bottom: 15px;">TOOLS</div>
+            <div style="margin-bottom: 10px;">
+                <a href="https://openai.com/index/introducing-deep-research/" style="color: #00FF00; text-decoration: none; font-weight: bold;">OpenAI's Deep Research</a>
+                <div style="margin-top: 5px; font-weight: normal; color: #00FF00;">
+                    AI tool for complex analysis and research tasks
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <script>
+        // Add terminal-like keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            const links = document.querySelectorAll('a');
+            let currentIndex = 0;
+            
+            // Find currently focused link
+            for (let i = 0; i < links.length; i++) {
+                if (links[i] === document.activeElement) {
+                    currentIndex = i;
+                    break;
+                }
+            }
+
+            switch(e.key) {
+                case 'ArrowDown':
+                    e.preventDefault();
+                    currentIndex = (currentIndex + 1) % links.length;
+                    links[currentIndex].focus();
+                    break;
+                case 'ArrowUp':
+                    e.preventDefault();
+                    currentIndex = (currentIndex - 1 + links.length) % links.length;
+                    links[currentIndex].focus();
+                    break;
+                case 'Enter':
+                case 'ArrowRight':
+                    if (document.activeElement.tagName === 'A') {
+                        e.preventDefault();
+                        document.activeElement.click();
+                    }
+                    break;
+                case 'ArrowLeft':
+                    e.preventDefault();
+                    window.history.back();
+                    break;
+                case 'q':
+                case 'Q':
+                    e.preventDefault();
+                    if (confirm('Are you sure you want to quit?')) {
+                        window.close();
+                    }
+                    break;
+                case '?':
+                    e.preventDefault();
+                    alert('Navigation Help:\n↑↓ - Move between links\n→/Enter - Follow link\n← - Go back\nQ - Quit\n? - This help');
+                    break;
+            }
+        });
+
+        // Add terminal-like link highlighting
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('a');
+            links.forEach(link => {
+                link.addEventListener('focus', function() {
+                    this.style.backgroundColor = '#00FF00';
+                    this.style.color = '#000000';
+                });
+                link.addEventListener('blur', function() {
+                    this.style.backgroundColor = 'transparent';
+                    if (this.parentElement.classList.contains('questions')) {
+                        this.style.color = '#FFAA00';
+                    } else {
+                        this.style.color = '#00FF00';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
